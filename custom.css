@@ -1,0 +1,134 @@
+/* Custom CSS */
+body, html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'TangerSerifMedium-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/TangerSerifMedium-Regular.otf');
+}
+
+/* NAVIGATION */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkgrey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: left;
+    font-family: 'TangerSerifMedium-Regular';
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 60px;
+    color: #3C3B3D;
+    display: block;
+    transition: 0.3s;
+    margin-left: 40px;
+    font-weight: 600;
+    font-family: 'TangerSerifMedium-Regular';
+}
+
+.sidenav a:hover {
+    color: #E7E7E7;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 48px;
+    margin-left: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.bg { /* The image used */
+    background-image: url('2.jpg'); /* Full height */
+    height: 100%; /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: red;
+    font-family: sans-serif;
+    text-decoration-color: aliceblue;
+}
+
+.all-cols {
+    border-style: solid; /* border-color: yellow; */
+}
+
+#img-got {
+    padding: 10px;
+    height: 400px;
+    width: auto;
+}
+
+#img-foo {
+    padding: 10px;
+    height: 400px;
+    z-index: -100;
+}
+
+/* # Responsive breakpoints # https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints Extra small   <576px  	.col- Small         ≥576px    .col-sm- Medium        ≥768px    .col-md- Large         ≥992px    .col-lg- Extra large   ≥1200px   .col-xl- *//* Apply these rules if the screen width is LESS than 576px */
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1rem
+    }
+
+    #img-foo {
+        display: none;
+    }
+
+    .all-cols {
+        border-color: black;
+    }
+}
+
+/* Apply these rules if the screen width is GREATER than 576px */
+@media (min-width: 576px) {
+    .all-cols {
+        border-color: white;
+    }
+}
+
+/* Apply these rules if the screen width is GREATER than 768px */
+@media (min-width: 768px) {
+    .all-cols {
+        border-color: blue;
+    }
+}
+
+/* Apply these rules if the screen width is GREATER than 992px */
+@media (min-width: 992px) {
+    .all-cols {
+        border-color: yellow;
+    }
+}
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+@media (min-width: 1200px) {
+    .all-cols {
+        border-color: red;
+    }
+}

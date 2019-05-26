@@ -1,0 +1,16 @@
+.sidenav .navbar-image {
+    display: none;
+    position: absolute;
+    top: 13%;
+    left: 31%;
+    width: 30%;
+}
+
+#navbarResponsive{
+    margin-top: -40px;
+}
+#navbarResponsive .nav-link {
+    font-family: 'Works', sans-serif;
+    font-size: 18px;
+    color: #E7E7E7;
+}
