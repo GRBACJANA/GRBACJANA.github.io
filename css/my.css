@@ -1,0 +1,61 @@
+body {
+    background-image: url("../images/dgraybg.png")
+}
+
+@font-face {
+    font-family: 'TangerSerifMedium-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/TangerSerifMedium-Regular.otf');
+}
+
+.content-project {
+    font-size: 60px;
+    color: #E7E7E7;
+    display: block;
+    margin-top: 100px;
+    margin-left: 0px;
+    font-weight: 400;
+}
+
+.projectidentitytext {
+    font-family: 'Works', sans-serif;
+    font-size: 20px;
+    color: #E7E7E7;
+}
+
+a.orange-link:hover {
+    color: orange;
+}
+
+a.orange-link:link {
+    color: orange;
+    text-decoration-color: none;
+}
+
+.calypsotext {
+    font-family: 'Works', sans-serif;
+    font-size: 20px;
+    color: #E7E7E7;
+}
+
+/* hr { color: white; background-color: #f00; height: 5px; } */
+tap {
+    font-family: 'Works', sans-serif;
+    font-size: 20px;
+    color: #E7E7E7;
+}
+
+a.tap:hover {
+    color: orange;
+}
+
+.tap {
+@media only screen and (orientation: portrait), only screen and (orientation: landscape), only screen and (max-device-width: 799px;) font-size: 20px;
+    display: block;
+    text-align: left;
+    color: #E7E7E7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
